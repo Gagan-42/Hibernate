@@ -6,40 +6,6 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws InterruptedException {
 
-//        Scanner sc = new Scanner(System.in);
-//        StudentService studentService = new StudentService();
-//        Student student = new Student();
-//        System.out.println("Enter the name: ");
-//        String name = sc.nextLine();
-//        System.out.println("Enter the age: ");
-//        int age = sc.nextInt();
-//        sc.nextLine();
-//        student.setName(name);
-//        student.setAge(age);
-//        studentService.saveStudent(student);
-//
-//        System.out.println("Enter id to retrieve: ");
-//        int id = sc.nextInt();
-//        Student studentGetById = studentService.getStudent(id);
-//        System.out.println(studentGetById);
-//        sc.nextLine();
-//
-//        System.out.println("Enter the id to update: ");
-//        int id1 = sc.nextInt();
-//        sc.nextLine();
-//        Student updateStudent = studentService.getStudent(id1);
-//        System.out.println("Enter the name to be updated: ");
-//        String naam  = sc.nextLine();
-//        System.out.println("Enter the age to be updated: ");
-//        int age1 = sc.nextInt();
-//        updateStudent.setName(naam);
-//        updateStudent.setAge(age1);
-//        studentService.updateStudent(updateStudent);
-//
-//        System.out.println("Enter the id to be deleted: ");
-//        int id2 = sc.nextInt();
-//        sc.nextLine();
-//        studentService.deleteStudent(id2);
         while (true) {
             System.out.println();
             System.out.println("STUDENT MANAGEMENT SYSTEM");
