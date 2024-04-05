@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws InterruptedException {
-
-        while (true) {
+        boolean choice = Boolean.TRUE;
+        while (choice) {
             System.out.println();
             System.out.println("STUDENT MANAGEMENT SYSTEM");
             Scanner sc = new Scanner(System.in);
@@ -16,8 +16,8 @@ public class App {
             System.out.println("4.Delete Student");
             System.out.println("5.Get All Student");
             System.out.println("6.EXIT");
-            int choice = sc.nextInt();
-            switch (choice) {
+            int options = sc.nextInt();
+            switch (options) {
                 case 1:
                     StudentService service = new StudentService();
                     Student student = new Student();
@@ -69,7 +69,10 @@ public class App {
                 case 6:
                     StudentService service4 = new StudentService();
                     service4.exit();
-
+                    choice = Boolean.FALSE;
+                    break;
+                default:
+                    System.out.printf("Invalid Request");
             }
         }
 
