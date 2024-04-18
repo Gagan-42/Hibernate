@@ -63,7 +63,7 @@ public class StudentService {
             i--;
         }
         System.out.println();
-        System.out.println("ThankYou For Student Management System");
+        System.out.println("ThankYou For Using Student Management System");
     }
 
 
